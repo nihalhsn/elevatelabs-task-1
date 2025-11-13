@@ -1,4 +1,4 @@
-During the Nmap scan on subnet 172.20.10.028, I observed
+During the Nmap scan on subnet 172.20.10.0/28, I observed
 
 SYN packets sent from my Kali VM to all target ports
 
@@ -11,5 +11,6 @@ No-response packets (filtered ports) from 172.20.10.10
 DNS traffic when scanning port 53
 
 Apple sync protocol traffic for port 62078 (iPhone hotspot)
+
 
 Packet flow increased immediately when the Nmap scan started
