@@ -1,0 +1,23 @@
+# Nmap 7.95 scan initiated Thu Nov 13 02:58:41 2025 as: /usr/lib/nmap/nmap -sS -oN scan_result.txt 172.20.10.0/28
+Nmap scan report for 172.20.10.1
+Host is up (0.0041s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT      STATE SERVICE
+21/tcp    open  ftp
+53/tcp    open  domain
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: F6:BE:EC:9B:10:64 (Unknown)
+
+Nmap scan report for 172.20.10.10
+Host is up (0.0012s latency).
+All 1000 scanned ports on 172.20.10.10 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 80:30:49:D2:F2:5D (Liteon Technology)
+
+Nmap scan report for 172.20.10.2
+Host is up (0.0000050s latency).
+All 1000 scanned ports on 172.20.10.2 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+# Nmap done at Thu Nov 13 02:58:47 2025 -- 16 IP addresses (3 hosts up) scanned in 5.97 seconds
